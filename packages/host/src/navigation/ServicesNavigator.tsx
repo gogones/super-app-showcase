@@ -14,6 +14,7 @@ const ServicesNavigator = () => {
     <Home.Navigator
       screenOptions={{
         header: NavBar,
+        title: 'Our Services',
       }}>
       <Home.Screen name="Services" component={ServicesScreen} />
     </Home.Navigator>
